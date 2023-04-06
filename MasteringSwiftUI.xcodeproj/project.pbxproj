@@ -11,6 +11,18 @@
 		BD128153295EAB3400052A3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD128152295EAB3400052A3B /* ContentView.swift */; };
 		BD128155295EAB3700052A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD128154295EAB3700052A3B /* Assets.xcassets */; };
 		BD128158295EAB3700052A3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD128157295EAB3700052A3B /* Preview Assets.xcassets */; };
+		BD128161295EBEF300052A3B /* ImagesAndLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD128160295EBEF300052A3B /* ImagesAndLabels.swift */; };
+		BD128164296001F600052A3B /* StackViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD128163296001F600052A3B /* StackViews.swift */; };
+		BD274D0E296C297000734282 /* StateAndBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD274D0D296C297000734282 /* StateAndBinding.swift */; };
+		BD67E3EA297ABF7600250717 /* SwiftUIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD67E3E9297ABF7600250717 /* SwiftUIList.swift */; };
+		BD6E9CDE29B33BCB0038D5D1 /* SwiftUINavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E9CDD29B33BCB0038D5D1 /* SwiftUINavigationView.swift */; };
+		BD6E9CE029B43B870038D5D1 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E9CDF29B43B870038D5D1 /* RestaurantDetailView.swift */; };
+		BD80383D296838A000122514 /* SwiftUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80383C296838A000122514 /* SwiftUIButton.swift */; };
+		BD9C8239296EAB6C00CF67D0 /* Exercise7.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C8238296EAB6C00CF67D0 /* Exercise7.swift */; };
+		BD9C823C296EADE100CF67D0 /* SwiftUIShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C823B296EADE100CF67D0 /* SwiftUIShape.swift */; };
+		BD9C823F296EB90E00CF67D0 /* SwiftUIAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C823E296EB90E00CF67D0 /* SwiftUIAnimations.swift */; };
+		BDCBA297296571030077E1B6 /* Exercise #2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCBA296296571020077E1B6 /* Exercise #2.swift */; };
+		BDCBA29A29657E9E0077E1B6 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCBA29929657E9E0077E1B6 /* ScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,18 @@
 		BD128152295EAB3400052A3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD128154295EAB3700052A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD128157295EAB3700052A3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD128160295EBEF300052A3B /* ImagesAndLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesAndLabels.swift; sourceTree = "<group>"; };
+		BD128163296001F600052A3B /* StackViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViews.swift; sourceTree = "<group>"; };
+		BD274D0D296C297000734282 /* StateAndBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndBinding.swift; sourceTree = "<group>"; };
+		BD67E3E9297ABF7600250717 /* SwiftUIList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIList.swift; sourceTree = "<group>"; };
+		BD6E9CDD29B33BCB0038D5D1 /* SwiftUINavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationView.swift; sourceTree = "<group>"; };
+		BD6E9CDF29B43B870038D5D1 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		BD80383C296838A000122514 /* SwiftUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButton.swift; sourceTree = "<group>"; };
+		BD9C8238296EAB6C00CF67D0 /* Exercise7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise7.swift; sourceTree = "<group>"; };
+		BD9C823B296EADE100CF67D0 /* SwiftUIShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIShape.swift; sourceTree = "<group>"; };
+		BD9C823E296EB90E00CF67D0 /* SwiftUIAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimations.swift; sourceTree = "<group>"; };
+		BDCBA296296571020077E1B6 /* Exercise #2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise #2.swift"; sourceTree = "<group>"; };
+		BDCBA29929657E9E0077E1B6 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +75,16 @@
 		BD12814F295EAB3400052A3B /* MasteringSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				BD128150295EAB3400052A3B /* MasteringSwiftUIApp.swift */,
-				BD128152295EAB3400052A3B /* ContentView.swift */,
+				BD6E9CDA29B33B910038D5D1 /* Chapter 11 */,
+				BD67E3E8297ABEC500250717 /* Chapter 10 */,
+				BD9C823D296EB8F500CF67D0 /* Chapter9 */,
+				BD9C823A296EADBF00CF67D0 /* Chapter8 */,
+				BD274D0C296C295700734282 /* Chapter 7 */,
+				BD80383B2968388C00122514 /* Chapter 6 */,
+				BDCBA29829657E8E0077E1B6 /* Chapter 5 */,
+				BD128162296001D800052A3B /* Chapter 4 */,
+				BD12815F295EBD6100052A3B /* Chaper 3 */,
+				BD12815E295EBD3300052A3B /* Chapter 2 */,
 				BD128154295EAB3700052A3B /* Assets.xcassets */,
 				BD128156295EAB3700052A3B /* Preview Content */,
 			);
@@ -65,6 +97,90 @@
 				BD128157295EAB3700052A3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD12815E295EBD3300052A3B /* Chapter 2 */ = {
+			isa = PBXGroup;
+			children = (
+				BD128150295EAB3400052A3B /* MasteringSwiftUIApp.swift */,
+				BD128152295EAB3400052A3B /* ContentView.swift */,
+			);
+			path = "Chapter 2";
+			sourceTree = "<group>";
+		};
+		BD12815F295EBD6100052A3B /* Chaper 3 */ = {
+			isa = PBXGroup;
+			children = (
+				BD128160295EBEF300052A3B /* ImagesAndLabels.swift */,
+			);
+			path = "Chaper 3";
+			sourceTree = "<group>";
+		};
+		BD128162296001D800052A3B /* Chapter 4 */ = {
+			isa = PBXGroup;
+			children = (
+				BD128163296001F600052A3B /* StackViews.swift */,
+				BDCBA296296571020077E1B6 /* Exercise #2.swift */,
+			);
+			path = "Chapter 4";
+			sourceTree = "<group>";
+		};
+		BD274D0C296C295700734282 /* Chapter 7 */ = {
+			isa = PBXGroup;
+			children = (
+				BD274D0D296C297000734282 /* StateAndBinding.swift */,
+				BD9C8238296EAB6C00CF67D0 /* Exercise7.swift */,
+			);
+			path = "Chapter 7";
+			sourceTree = "<group>";
+		};
+		BD67E3E8297ABEC500250717 /* Chapter 10 */ = {
+			isa = PBXGroup;
+			children = (
+				BD67E3E9297ABF7600250717 /* SwiftUIList.swift */,
+			);
+			path = "Chapter 10";
+			sourceTree = "<group>";
+		};
+		BD6E9CDA29B33B910038D5D1 /* Chapter 11 */ = {
+			isa = PBXGroup;
+			children = (
+				BD6E9CDD29B33BCB0038D5D1 /* SwiftUINavigationView.swift */,
+				BD6E9CDF29B43B870038D5D1 /* RestaurantDetailView.swift */,
+			);
+			path = "Chapter 11";
+			sourceTree = "<group>";
+		};
+		BD80383B2968388C00122514 /* Chapter 6 */ = {
+			isa = PBXGroup;
+			children = (
+				BD80383C296838A000122514 /* SwiftUIButton.swift */,
+			);
+			path = "Chapter 6";
+			sourceTree = "<group>";
+		};
+		BD9C823A296EADBF00CF67D0 /* Chapter8 */ = {
+			isa = PBXGroup;
+			children = (
+				BD9C823B296EADE100CF67D0 /* SwiftUIShape.swift */,
+			);
+			path = Chapter8;
+			sourceTree = "<group>";
+		};
+		BD9C823D296EB8F500CF67D0 /* Chapter9 */ = {
+			isa = PBXGroup;
+			children = (
+				BD9C823E296EB90E00CF67D0 /* SwiftUIAnimations.swift */,
+			);
+			path = Chapter9;
+			sourceTree = "<group>";
+		};
+		BDCBA29829657E8E0077E1B6 /* Chapter 5 */ = {
+			isa = PBXGroup;
+			children = (
+				BDCBA29929657E9E0077E1B6 /* ScrollView.swift */,
+			);
+			path = "Chapter 5";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +253,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD80383D296838A000122514 /* SwiftUIButton.swift in Sources */,
 				BD128153295EAB3400052A3B /* ContentView.swift in Sources */,
+				BD9C8239296EAB6C00CF67D0 /* Exercise7.swift in Sources */,
+				BD128161295EBEF300052A3B /* ImagesAndLabels.swift in Sources */,
 				BD128151295EAB3400052A3B /* MasteringSwiftUIApp.swift in Sources */,
+				BD9C823F296EB90E00CF67D0 /* SwiftUIAnimations.swift in Sources */,
+				BD9C823C296EADE100CF67D0 /* SwiftUIShape.swift in Sources */,
+				BD67E3EA297ABF7600250717 /* SwiftUIList.swift in Sources */,
+				BD6E9CE029B43B870038D5D1 /* RestaurantDetailView.swift in Sources */,
+				BD128164296001F600052A3B /* StackViews.swift in Sources */,
+				BD6E9CDE29B33BCB0038D5D1 /* SwiftUINavigationView.swift in Sources */,
+				BDCBA297296571030077E1B6 /* Exercise #2.swift in Sources */,
+				BDCBA29A29657E9E0077E1B6 /* ScrollView.swift in Sources */,
+				BD274D0E296C297000734282 /* StateAndBinding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
