@@ -12,7 +12,9 @@ struct MasteringSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            SwiftUIList()
+//            SwiftUIList()
+//            ModalAlert()
+            SwiftUIForm().environmentObject(SettingStore())
         }
     }
 }
