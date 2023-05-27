@@ -14,7 +14,11 @@ struct MasteringSwiftUIApp: App {
 //            ContentView()
 //            SwiftUIList()
 //            ModalAlert()
-            SwiftUIForm().environmentObject(SettingStore())
+//            SwiftUIForm().environmentObject(SettingStore())
+//            SwipeToDeleteView()
+//            GestureView()
+//        BottomSheetView()
+            SwiftUIKivaLoanApp()
         }
     }
 }

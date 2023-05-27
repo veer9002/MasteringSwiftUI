@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD11E55829FD18DE0016A52D /* AppleWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11E55729FD18DE0016A52D /* AppleWallet.swift */; };
+		BD11E55C29FD21C20016A52D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11E55A29FD21C20016A52D /* Card.swift */; };
+		BD11E55D29FD21C20016A52D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11E55B29FD21C20016A52D /* Transaction.swift */; };
+		BD11E55F29FD21EE0016A52D /* TransactionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11E55E29FD21EE0016A52D /* TransactionHistoryView.swift */; };
+		BD11E56229FD26A10016A52D /* WalletCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11E56129FD26A10016A52D /* WalletCardView.swift */; };
 		BD128151295EAB3400052A3B /* MasteringSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD128150295EAB3400052A3B /* MasteringSwiftUIApp.swift */; };
 		BD128153295EAB3400052A3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD128152295EAB3400052A3B /* ContentView.swift */; };
 		BD128155295EAB3700052A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD128154295EAB3700052A3B /* Assets.xcassets */; };
@@ -19,6 +24,10 @@
 		BD6E9CDE29B33BCB0038D5D1 /* SwiftUINavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E9CDD29B33BCB0038D5D1 /* SwiftUINavigationView.swift */; };
 		BD6E9CE029B43B870038D5D1 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E9CDF29B43B870038D5D1 /* RestaurantDetailView.swift */; };
 		BD80383D296838A000122514 /* SwiftUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80383C296838A000122514 /* SwiftUIButton.swift */; };
+		BD81FA1729F91E7500234258 /* TinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81FA1629F91E7500234258 /* TinderView.swift */; };
+		BD81FA1929FA3C1500234258 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81FA1829FA3C1500234258 /* Trip.swift */; };
+		BD81FA1B29FA3E8300234258 /* CardViewSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81FA1A29FA3E8300234258 /* CardViewSwiftUI.swift */; };
+		BD81FA1D29FBBDB400234258 /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81FA1C29FBBDB400234258 /* DragState.swift */; };
 		BD8C9AD029EAB0E100457D88 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C9ACF29EAB0E100457D88 /* Article.swift */; };
 		BD93C17E29F2880800783A64 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD93C17D29F2880700783A64 /* SettingsView.swift */; };
 		BD93C18029F2998800783A64 /* SettingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD93C17F29F2998800783A64 /* SettingStore.swift */; };
@@ -28,11 +37,26 @@
 		BD9E283D29EFB54D006805B5 /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9E283C29EFB54D006805B5 /* ArticleDetailView.swift */; };
 		BD9E284029EFEE81006805B5 /* SwiftUIForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9E283F29EFEE81006805B5 /* SwiftUIForm.swift */; };
 		BDACCFD429F3E07E00312CF8 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDACCFD329F3E07E00312CF8 /* RegistrationView.swift */; };
+		BDACCFD629F64EE800312CF8 /* UserRegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDACCFD529F64EE800312CF8 /* UserRegistrationViewModel.swift */; };
+		BDACCFD929F67F1400312CF8 /* SwipeToDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDACCFD829F67F1400312CF8 /* SwipeToDeleteView.swift */; };
+		BDACCFDC29F7936C00312CF8 /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDACCFDB29F7936C00312CF8 /* GestureView.swift */; };
+		BDACCFDF29F7A60300312CF8 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDACCFDE29F7A60300312CF8 /* BottomSheetView.swift */; };
+		BDACCFE129F7A64F00312CF8 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDACCFE029F7A64F00312CF8 /* Restaurant.swift */; };
+		BDACCFE329F7A9B000312CF8 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDACCFE229F7A9B000312CF8 /* Handler.swift */; };
 		BDCBA297296571030077E1B6 /* Exercise #2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCBA296296571020077E1B6 /* Exercise #2.swift */; };
 		BDCBA29A29657E9E0077E1B6 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCBA29929657E9E0077E1B6 /* ScrollView.swift */; };
+		BDDF10D82A0A4F8500E6EA6D /* SwiftUIKivaLoanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF10D72A0A4F8500E6EA6D /* SwiftUIKivaLoanApp.swift */; };
+		BDDF10DA2A0A4FA000E6EA6D /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF10D92A0A4FA000E6EA6D /* Loan.swift */; };
+		BDDF10DC2A0A53E400E6EA6D /* LoanStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF10DB2A0A53E400E6EA6D /* LoanStore.swift */; };
+		BDDF10E12A0A616500E6EA6D /* LoanCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF10E02A0A616500E6EA6D /* LoanCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD11E55729FD18DE0016A52D /* AppleWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWallet.swift; sourceTree = "<group>"; };
+		BD11E55A29FD21C20016A52D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BD11E55B29FD21C20016A52D /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		BD11E55E29FD21EE0016A52D /* TransactionHistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryView.swift; sourceTree = "<group>"; };
+		BD11E56129FD26A10016A52D /* WalletCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCardView.swift; sourceTree = "<group>"; };
 		BD12814D295EAB3400052A3B /* MasteringSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasteringSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD128150295EAB3400052A3B /* MasteringSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasteringSwiftUIApp.swift; sourceTree = "<group>"; };
 		BD128152295EAB3400052A3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +70,10 @@
 		BD6E9CDD29B33BCB0038D5D1 /* SwiftUINavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationView.swift; sourceTree = "<group>"; };
 		BD6E9CDF29B43B870038D5D1 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
 		BD80383C296838A000122514 /* SwiftUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButton.swift; sourceTree = "<group>"; };
+		BD81FA1629F91E7500234258 /* TinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderView.swift; sourceTree = "<group>"; };
+		BD81FA1829FA3C1500234258 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		BD81FA1A29FA3E8300234258 /* CardViewSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewSwiftUI.swift; sourceTree = "<group>"; };
+		BD81FA1C29FBBDB400234258 /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
 		BD8C9ACF29EAB0E100457D88 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		BD93C17D29F2880700783A64 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BD93C17F29F2998800783A64 /* SettingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingStore.swift; sourceTree = "<group>"; };
@@ -55,8 +83,18 @@
 		BD9E283C29EFB54D006805B5 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
 		BD9E283F29EFEE81006805B5 /* SwiftUIForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIForm.swift; sourceTree = "<group>"; };
 		BDACCFD329F3E07E00312CF8 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		BDACCFD529F64EE800312CF8 /* UserRegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewModel.swift; sourceTree = "<group>"; };
+		BDACCFD829F67F1400312CF8 /* SwipeToDeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToDeleteView.swift; sourceTree = "<group>"; };
+		BDACCFDB29F7936C00312CF8 /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
+		BDACCFDE29F7A60300312CF8 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		BDACCFE029F7A64F00312CF8 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		BDACCFE229F7A9B000312CF8 /* Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
 		BDCBA296296571020077E1B6 /* Exercise #2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise #2.swift"; sourceTree = "<group>"; };
 		BDCBA29929657E9E0077E1B6 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		BDDF10D72A0A4F8500E6EA6D /* SwiftUIKivaLoanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIKivaLoanApp.swift; sourceTree = "<group>"; };
+		BDDF10D92A0A4FA000E6EA6D /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		BDDF10DB2A0A53E400E6EA6D /* LoanStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanStore.swift; sourceTree = "<group>"; };
+		BDDF10E02A0A616500E6EA6D /* LoanCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +108,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD11E55629FD18C70016A52D /* Chapter 21 */ = {
+			isa = PBXGroup;
+			children = (
+				BD11E55929FD21C20016A52D /* Model */,
+				BD11E56029FD22F10016A52D /* View */,
+			);
+			path = "Chapter 21";
+			sourceTree = "<group>";
+		};
+		BD11E55929FD21C20016A52D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD11E55A29FD21C20016A52D /* Card.swift */,
+				BD11E55B29FD21C20016A52D /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD11E56029FD22F10016A52D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD11E55729FD18DE0016A52D /* AppleWallet.swift */,
+				BD11E55E29FD21EE0016A52D /* TransactionHistoryView.swift */,
+				BD11E56129FD26A10016A52D /* WalletCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BD128144295EAB3300052A3B = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +155,12 @@
 		BD12814F295EAB3400052A3B /* MasteringSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BDDF10D62A0A4F5F00E6EA6D /* Chapter 22 */,
+				BD11E55629FD18C70016A52D /* Chapter 21 */,
+				BD81FA1529F91E5300234258 /* Chapter 20 */,
+				BDACCFDD29F7A5E600312CF8 /* Chapter 19 */,
+				BDACCFDA29F7935900312CF8 /* Chapter 17 */,
+				BDACCFD729F67ECD00312CF8 /* Chapter 16 */,
 				BDACCFD229F3E06500312CF8 /* Chapter 15 */,
 				BD9E283E29EFEDFB006805B5 /* Chapter 13 */,
 				BDE4D29629DEA1DC005BB26F /* Chapter 12 */,
@@ -176,6 +248,17 @@
 			path = "Chapter 6";
 			sourceTree = "<group>";
 		};
+		BD81FA1529F91E5300234258 /* Chapter 20 */ = {
+			isa = PBXGroup;
+			children = (
+				BD81FA1629F91E7500234258 /* TinderView.swift */,
+				BD81FA1829FA3C1500234258 /* Trip.swift */,
+				BD81FA1A29FA3E8300234258 /* CardViewSwiftUI.swift */,
+				BD81FA1C29FBBDB400234258 /* DragState.swift */,
+			);
+			path = "Chapter 20";
+			sourceTree = "<group>";
+		};
 		BD9C823A296EADBF00CF67D0 /* Chapter8 */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,8 +289,35 @@
 			isa = PBXGroup;
 			children = (
 				BDACCFD329F3E07E00312CF8 /* RegistrationView.swift */,
+				BDACCFD529F64EE800312CF8 /* UserRegistrationViewModel.swift */,
 			);
 			path = "Chapter 15";
+			sourceTree = "<group>";
+		};
+		BDACCFD729F67ECD00312CF8 /* Chapter 16 */ = {
+			isa = PBXGroup;
+			children = (
+				BDACCFD829F67F1400312CF8 /* SwipeToDeleteView.swift */,
+			);
+			path = "Chapter 16";
+			sourceTree = "<group>";
+		};
+		BDACCFDA29F7935900312CF8 /* Chapter 17 */ = {
+			isa = PBXGroup;
+			children = (
+				BDACCFDB29F7936C00312CF8 /* GestureView.swift */,
+			);
+			path = "Chapter 17";
+			sourceTree = "<group>";
+		};
+		BDACCFDD29F7A5E600312CF8 /* Chapter 19 */ = {
+			isa = PBXGroup;
+			children = (
+				BDACCFDE29F7A60300312CF8 /* BottomSheetView.swift */,
+				BDACCFE229F7A9B000312CF8 /* Handler.swift */,
+				BDACCFE029F7A64F00312CF8 /* Restaurant.swift */,
+			);
+			path = "Chapter 19";
 			sourceTree = "<group>";
 		};
 		BDCBA29829657E8E0077E1B6 /* Chapter 5 */ = {
@@ -216,6 +326,25 @@
 				BDCBA29929657E9E0077E1B6 /* ScrollView.swift */,
 			);
 			path = "Chapter 5";
+			sourceTree = "<group>";
+		};
+		BDDF10D62A0A4F5F00E6EA6D /* Chapter 22 */ = {
+			isa = PBXGroup;
+			children = (
+				BDDF10D72A0A4F8500E6EA6D /* SwiftUIKivaLoanApp.swift */,
+				BDDF10D92A0A4FA000E6EA6D /* Loan.swift */,
+				BDDF10DB2A0A53E400E6EA6D /* LoanStore.swift */,
+				BDDF10DD2A0A611E00E6EA6D /* Views */,
+			);
+			path = "Chapter 22";
+			sourceTree = "<group>";
+		};
+		BDDF10DD2A0A611E00E6EA6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDDF10E02A0A616500E6EA6D /* LoanCellView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BDE4D29629DEA1DC005BB26F /* Chapter 12 */ = {
@@ -298,24 +427,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDACCFE129F7A64F00312CF8 /* Restaurant.swift in Sources */,
 				BD80383D296838A000122514 /* SwiftUIButton.swift in Sources */,
+				BDDF10E12A0A616500E6EA6D /* LoanCellView.swift in Sources */,
 				BD128153295EAB3400052A3B /* ContentView.swift in Sources */,
 				BD9C8239296EAB6C00CF67D0 /* Exercise7.swift in Sources */,
+				BD81FA1B29FA3E8300234258 /* CardViewSwiftUI.swift in Sources */,
+				BD11E56229FD26A10016A52D /* WalletCardView.swift in Sources */,
 				BDACCFD429F3E07E00312CF8 /* RegistrationView.swift in Sources */,
+				BD11E55D29FD21C20016A52D /* Transaction.swift in Sources */,
+				BDACCFD929F67F1400312CF8 /* SwipeToDeleteView.swift in Sources */,
+				BD11E55829FD18DE0016A52D /* AppleWallet.swift in Sources */,
 				BD128161295EBEF300052A3B /* ImagesAndLabels.swift in Sources */,
 				BD128151295EAB3400052A3B /* MasteringSwiftUIApp.swift in Sources */,
+				BD11E55C29FD21C20016A52D /* Card.swift in Sources */,
 				BD6E7E2E29E6EA0B00069C8B /* ModalAlert.swift in Sources */,
 				BD9C823F296EB90E00CF67D0 /* SwiftUIAnimations.swift in Sources */,
 				BD9C823C296EADE100CF67D0 /* SwiftUIShape.swift in Sources */,
 				BD67E3EA297ABF7600250717 /* SwiftUIList.swift in Sources */,
 				BD6E9CE029B43B870038D5D1 /* RestaurantDetailView.swift in Sources */,
 				BD9E283D29EFB54D006805B5 /* ArticleDetailView.swift in Sources */,
+				BD81FA1929FA3C1500234258 /* Trip.swift in Sources */,
 				BD128164296001F600052A3B /* StackViews.swift in Sources */,
+				BDDF10DA2A0A4FA000E6EA6D /* Loan.swift in Sources */,
+				BD81FA1D29FBBDB400234258 /* DragState.swift in Sources */,
+				BDACCFDC29F7936C00312CF8 /* GestureView.swift in Sources */,
 				BD6E9CDE29B33BCB0038D5D1 /* SwiftUINavigationView.swift in Sources */,
+				BDACCFDF29F7A60300312CF8 /* BottomSheetView.swift in Sources */,
 				BD9E284029EFEE81006805B5 /* SwiftUIForm.swift in Sources */,
+				BDDF10D82A0A4F8500E6EA6D /* SwiftUIKivaLoanApp.swift in Sources */,
 				BD8C9AD029EAB0E100457D88 /* Article.swift in Sources */,
+				BD81FA1729F91E7500234258 /* TinderView.swift in Sources */,
 				BDCBA297296571030077E1B6 /* Exercise #2.swift in Sources */,
+				BD11E55F29FD21EE0016A52D /* TransactionHistoryView.swift in Sources */,
+				BDDF10DC2A0A53E400E6EA6D /* LoanStore.swift in Sources */,
 				BD93C18029F2998800783A64 /* SettingStore.swift in Sources */,
+				BDACCFD629F64EE800312CF8 /* UserRegistrationViewModel.swift in Sources */,
+				BDACCFE329F7A9B000312CF8 /* Handler.swift in Sources */,
 				BDCBA29A29657E9E0077E1B6 /* ScrollView.swift in Sources */,
 				BD274D0E296C297000734282 /* StateAndBinding.swift in Sources */,
 				BD93C17E29F2880800783A64 /* SettingsView.swift in Sources */,

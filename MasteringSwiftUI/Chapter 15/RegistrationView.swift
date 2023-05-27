@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct RegistrationView: View {
-    @State private var username: String = ""
-    @State private var password: String = ""
-    @State private var confirmPassword: String = ""
+//    @State private var username: String = ""
+//    @State private var password: String = ""
+//    @State private var confirmPassword: String = ""
+    
+    @ObservedObject private var userRegistrationViewModel = UserRegistrationViewModel()
 
     var body: some View {
         
@@ -20,22 +22,24 @@ struct RegistrationView: View {
                 .bold()
                 .padding(.bottom, 30)
             
-           FormTextField(fieldName: "Username", fieldValue: $username)
-            
-            RequirementText(text: "A minimum of 4 characters")
+            FormTextField(fieldName: "Username", fieldValue: $userRegistrationViewModel.username)
+
+            RequirementText(iconColor: userRegistrationViewModel.isUsernameLengthValid ? Color .secondary : Color(red: 251/255, green: 128/255, blue: 128/255), isStrikeThrough: userRegistrationViewModel.isUsernameLengthValid, text: "A minimum of 4 characters")
                 .padding()
             
-            FormTextField(fieldName: "Password", isSecure: true, fieldValue: $password)
+            FormTextField(fieldName: "Password", isSecure: true, fieldValue: $userRegistrationViewModel.password)
 
             VStack {
-                RequirementText(iconName: "lock.open", text: "A minimum of 4 characters")
-                RequirementText(iconName: "lock.open", text: "A minimum of 4 characters")
+                RequirementText(iconName: "lock.open",iconColor: userRegistrationViewModel.isPasswordLengthValid ? Color .secondary : Color(red: 251/255, green: 128/255, blue: 128/255), isStrikeThrough: userRegistrationViewModel.isPasswordLengthValid, text: "A minimum of 8 characters")
+                
+                RequirementText(iconName: "lock.open",iconColor: userRegistrationViewModel.isPasswordCapitalLetters ? Color .secondary : Color(red: 251/255, green: 128/255, blue: 128/255), isStrikeThrough: userRegistrationViewModel.isPasswordCapitalLetters, text: "Atleast one capital letter")
+                
             }
             .padding()
           
-            FormTextField(fieldName: "Confirm password", isSecure: true, fieldValue: $confirmPassword)
+            FormTextField(fieldName: "Confirm password", isSecure: true, fieldValue: $userRegistrationViewModel.confirmpassword)
             
-            RequirementText(text: "Your confirm password should be same as Password.")
+            RequirementText(iconColor: userRegistrationViewModel.isUsernameLengthValid ? Color .secondary : Color(red: 251/255, green: 128/255, blue: 128/255), isStrikeThrough: userRegistrationViewModel.isUsernameLengthValid, text: "Your confirm password should be same as Password.")
                 .padding()
                 .padding(.bottom, 20)
 
@@ -113,7 +117,6 @@ struct RequirementText: View {
     var iconColor = Color(red: 251/255, green: 128/255, blue: 128/255)
     var isStrikeThrough = false
     var text = ""
-
 
     var body: some View {
         VStack(alignment: .leading) {
